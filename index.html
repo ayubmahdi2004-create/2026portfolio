@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayub Mahdi — Designer & Concept Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── CUSTOM CURSOR ── -->
+<div id="cur"><img src="images/Cursor1.png" alt=""></div>
+
+<!-- ══════════════════════════════════════
+     LIGHTBOX
+═══════════════════════════════════════ -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lb-close">✕</button>
+  <button class="lb-arrow" id="lb-prev">‹</button>
+  <button class="lb-arrow" id="lb-next">›</button>
+  <img id="lb-img" src="" alt="">
+  <div class="lb-counter" id="lb-counter"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     MODAL — STEPOUT
+═══════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-stepout">
+  <button class="modal-close" onclick="closeModal('stepout')">← Back</button>
+  <div class="modal-inner">
+    <span class="modal-label">01 — UI/UX Design · Capstone</span>
+    <h1 class="modal-title">StepOut</h1>
+    <p class="modal-desc">A wellness app designed to help youth (ages 15–21) break cycles of indoor overstimulation and reclaim their day — one step at a time.</p>
+    <p class="modal-meta">
+      <strong>Problem:</strong> Students 15–21 spend too much time online and indoors, causing poor focus, poor sleep, and disconnection from the real world.<br><br>
+      <strong>Solution:</strong> A free mobile app with daily outdoor tasks, progress tracking, journaling, and analytics — designed with a calm, nature-inspired visual language.<br><br>
+      <strong>Tools:</strong> Figma, component design system, high-fidelity prototyping.
+    </p>
+    <div class="modal-chips">
+      <span class="modal-chip">Interaction Design</span>
+      <span class="modal-chip">User Research</span>
+      <span class="modal-chip">Figma</span>
+      <span class="modal-chip">System Design</span>
+      <span class="modal-chip">Prototyping</span>
+      <span class="modal-chip">Usability Testing</span>
+    </div>
+    <div class="gallery-grid" id="gallery-stepout">
+      <img src="images/C1.png" alt="StepOut overview mockup">
+      <img src="images/C2.png" alt="Onboarding screens">
+      <img src="images/C3.png" alt="Home screen and lock screen">
+      <img src="images/C4.png" alt="Analytics, Goals, Daily Log">
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     MODAL — CONCEPT ART
+═══════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-concept">
+  <button class="modal-close" onclick="closeModal('concept')">← Back</button>
+  <div class="modal-inner">
+    <span class="modal-label">02 — Concept Art & Illustration</span>
+    <h1 class="modal-title">Character Design</h1>
+    <p class="modal-desc">A growing collection of original character designs and concept illustrations spanning fantasy, sci-fi, manga, and anime aesthetics.</p>
+    <p class="modal-meta">
+      <strong>Range:</strong> Full-colour character illustrations, action compositions, intimate portraits, manga-style ink work, and gesture studies — demonstrating versatility across styles, moods, and techniques.<br><br>
+      <strong>Approach:</strong> Each character begins from a concept or world prompt. Costume design, lighting, and colour palette are used to communicate personality and story without words.
+    </p>
+    <div class="modal-chips">
+      <span class="modal-chip">Illustration</span>
+      <span class="modal-chip">Character Design</span>
+      <span class="modal-chip">World Building</span>
+      <span class="modal-chip">Digital Painting</span>
+      <span class="modal-chip">Manga / Linework</span>
+      <span class="modal-chip">Colour Theory</span>
+    </div>
+    <div class="gallery-grid" id="gallery-concept">
+      <!-- art1 and art4 are .jpg — all others are .png -->
+      <img src="images/art1.jpg"  alt="Character 1">
+      <img src="images/art2.png"  alt="Character 2">
+      <img src="images/art3.png"  alt="Character 3">
+      <img src="images/art4.jpg"  alt="Character 4">
+      <img src="images/art5.png"  alt="Character 5">
+      <img src="images/art6.png"  alt="Character 6">
+      <img src="images/art7.png"  alt="Character 7">
+      <img src="images/art8.png"  alt="Character 8">
+      <img src="images/art9.png"  alt="Character 9">
+      <img src="images/art10.png" alt="Character 10">
+      <img src="images/art11.png" alt="Character 11">
+      <img src="images/art12.png" alt="Character 12">
+      <img src="images/art13.png" alt="Character 13">
+      <img src="images/art14.png" alt="Character 14">
+      <img src="images/art15.png" alt="Character 15">
+      <img src="images/art16.png" alt="Character 16">
+      <img src="images/art17.png" alt="Character 17">
+      <img src="images/art18.png" alt="Character 18">
+      <img src="images/art19.png" alt="Character 19">
+      <img src="images/art20.png" alt="Character 20">
+      <img src="images/art21.png" alt="Character 21">
+      <img src="images/art22.png" alt="Character 22">
+      <img src="images/art23.png" alt="Character 23">
+      <img src="images/art24.png" alt="Character 24">
+      <img src="images/art25.png" alt="Character 25">
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     MODAL — 3D BACKGROUNDS
+═══════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-3d">
+  <button class="modal-close" onclick="closeModal('3d')">← Back</button>
+  <div class="modal-inner">
+    <span class="modal-label">03 — 3D Environment Design</span>
+    <h1 class="modal-title">3D Backgrounds</h1>
+    <p class="modal-desc">A series of fully realised 3D background environments — from ancient citadels and stylised villages to painterly natural landscapes.</p>
+    <p class="modal-meta">
+      <strong>Scope:</strong> Architectural environments, fantasy landscapes, stylised nature scenes, and village streetscapes. Each background is designed to support foreground characters and narrative action.<br><br>
+      <strong>Process:</strong> Modelled, lit, and rendered in 3D software with stylised post-processing. Colour grading and atmospheric effects are applied to achieve the final visual tone.
+    </p>
+    <div class="modal-chips">
+      <span class="modal-chip">3D Modelling</span>
+      <span class="modal-chip">Environment Design</span>
+      <span class="modal-chip">Lighting & Rendering</span>
+      <span class="modal-chip">Blender</span>
+      <span class="modal-chip">Stylised Art</span>
+    </div>
+    <div class="gallery-grid" id="gallery-3d">
+      <!-- all bg images are .jpg -->
+      <img src="images/bg1.jpg"  alt="3D Background 1">
+      <img src="images/bg2.jpg"  alt="3D Background 2">
+      <img src="images/bg3.jpg"  alt="3D Background 3">
+      <img src="images/bg4.jpg"  alt="3D Background 4">
+      <img src="images/bg5.jpg"  alt="3D Background 5">
+      <img src="images/bg6.jpg"  alt="3D Background 6">
+      <img src="images/bg7.jpg"  alt="3D Background 7">
+      <img src="images/bg8.jpg"  alt="3D Background 8">
+      <img src="images/bg9.jpg"  alt="3D Background 9">
+      <img src="images/bg10.jpg" alt="3D Background 10">
+      <img src="images/bg11.jpg" alt="3D Background 11">
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     NAV
+═══════════════════════════════════════ -->
+<nav>
+  <a href="#" id="logo-wrap">
+    <img src="images/logo.png" alt="Ayub Mahdi">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#portfolio">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#connect">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<section id="hero">
+  <!-- wave1 = right side, wave2 = top left -->
+  <img class="wave-hero-r"  src="images/wave1.png" alt="">
+  <img class="wave-hero-tl" src="images/wave2.png" alt="">
+
+  <!-- left col: text -->
+  <div class="hero-copy">
+    <p class="hero-eyebrow">UI/UX Designer &amp; Concept Artist — Toronto, ON</p>
+    <h1 class="hero-name">Ayub<br>Mahdi</h1>
+    <div class="hero-tagline">
+      <img src="images/text.png" alt="Design Intentionally, Create Ambitiously">
+    </div>
+    <p class="hero-desc">Animator and designer who brings ideas to life through motion, storytelling, and bold visuals — creating engaging content for today's digital platforms.</p>
+    <a href="#portfolio" class="hero-btn">View Work →</a>
+  </div>
+
+  <!-- right col: photo -->
+  <div class="hero-photo-col">
+    <div class="hero-photo-wrap">
+      <img class="photo" src="images/Me.jpg" alt="Ayub Mahdi">
+      <!-- cursor decorations near photo -->
+      <img class="cur-deco"  src="images/Cursor1.png" alt="">
+      <img class="cur-deco2" src="images/Cursor.png"  alt="">
+      <!-- sphere decoration bottom-right of photo -->
+      <img class="hero-sphere" src="images/sphere.png" alt="">
+    </div>
+  </div>
+
+  <span class="scroll-hint">Scroll</span>
+</section>
+
+<!-- ══════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════ -->
+<section id="about">
+  <div class="about-copy">
+    <span class="label">About</span>
+    <h2 class="reveal">UI/UX designer<br><em>&amp; concept artist.</em></h2>
+    <p class="reveal d1">I blend storytelling with functional design systems — from character design to complete app experiences. I work at the intersection of art and interface, creating work that is both beautiful and purposeful.</p>
+  </div>
+  <!-- second col intentionally empty — keeps grid spacing clean on desktop -->
+  <div></div>
+</section>
+
+<!-- ══════════════════════════════════════
+     PORTFOLIO
+═══════════════════════════════════════ -->
+<section id="portfolio">
+  <div class="section-header">
+    <h2 class="reveal">Selected Work</h2>
+    <span class="section-count">03 Projects</span>
+  </div>
+
+  <div class="case-studies">
+
+    <!-- 01 StepOut -->
+    <div class="case-card reveal" onclick="openModal('stepout')">
+      <div class="case-img bg-mint">
+        <img src="images/C1.png" alt="StepOut — UI/UX Capstone">
+      </div>
+      <div class="case-copy">
+        <span class="case-num">01</span>
+        <span class="case-tag">UI/UX Design — Capstone</span>
+        <h3>StepOut</h3>
+        <p>A wellness app helping youth (15–21) reclaim their day — balancing outdoor and indoor life through personalised goals, daily tasks, and progress analytics.</p>
+        <div class="case-chips">
+          <span class="chip">Interaction Design</span>
+          <span class="chip">User Research</span>
+          <span class="chip">Figma</span>
+          <span class="chip">System Design</span>
+        </div>
+        <span class="view-link">View Case Study →</span>
+      </div>
+    </div>
+
+    <!-- 02 Concept Art -->
+    <div class="case-card flip reveal d1" onclick="openModal('concept')">
+      <div class="case-img bg-ink">
+        <!-- art5 = water warrior — strongest cover image -->
+        <img src="images/art5.png" alt="Character Design">
+      </div>
+      <div class="case-copy">
+        <span class="case-num">02</span>
+        <span class="case-tag">Concept Art &amp; Illustration</span>
+        <h3>Character Design</h3>
+        <p>Original character designs and illustrations spanning fantasy, sci-fi, and anime aesthetics — exploring narrative, form, and emotion through bold visual storytelling.</p>
+        <div class="case-chips">
+          <span class="chip">Illustration</span>
+          <span class="chip">Character Design</span>
+          <span class="chip">World Building</span>
+          <span class="chip">Digital Art</span>
+        </div>
+        <span class="view-link">View Case Study →</span>
+      </div>
+    </div>
+
+    <!-- 03 3D Backgrounds -->
+    <div class="case-card reveal d2" onclick="openModal('3d')">
+      <div class="case-img bg-steel">
+        <img src="images/bg5.jpg" alt="3D Backgrounds">
+      </div>
+      <div class="case-copy">
+        <span class="case-num">03</span>
+        <span class="case-tag">3D / Environment Design</span>
+        <h3>3D Backgrounds</h3>
+        <p>Fully realised 3D environments — from ancient citadels and fantasy landscapes to stylised villages — built for game, animation, and illustration pipelines.</p>
+        <div class="case-chips">
+          <span class="chip">Blender</span>
+          <span class="chip">Environment Design</span>
+          <span class="chip">3D Art</span>
+          <span class="chip">Stylised Rendering</span>
+        </div>
+        <span class="view-link">View Case Study →</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     TAGLINE STRIP
+═══════════════════════════════════════ -->
+<div class="tagline-strip">
+  <img class="wave-strip" src="images/wave1.png" alt="">
+  <img class="txt" src="images/text.png" alt="Design Intentionally, Create Ambitiously">
+</div>
+
+<!-- ══════════════════════════════════════
+     CONNECT
+═══════════════════════════════════════ -->
+<section id="connect">
+  <!-- wave3 = right side corner, wave2 = top left -->
+  <img class="wave-conn-r"  src="images/wave3.png" alt="">
+  <img class="wave-conn-tl" src="images/wave2.png" alt="">
+
+  <div class="connect-title">
+    <h2>Lets<br>Connect</h2>
+  </div>
+
+  <div class="connect-body">
+    <div class="conn-left">
+      <div class="conn-rows">
+        <a href="mailto:ayub.mahdi2004@gmail.com" class="conn-row">
+          <span class="conn-row-lbl">Email</span>
+          <span class="conn-row-val">ayub.mahdi2004@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/ayub-mahdi-76a41b295/" target="_blank" rel="noopener" class="conn-row">
+          <span class="conn-row-lbl">LinkedIn</span>
+          <span class="conn-row-val">linkedin.com/in/ayub-mahdi-76a41b295</span>
+        </a>
+        <a href="tel:6478067481" class="conn-row">
+          <span class="conn-row-lbl">Phone</span>
+          <span class="conn-row-val">647 806 7481</span>
+        </a>
+      </div>
+      <div class="social-btns">
+        <a href="https://www.linkedin.com/in/ayub-mahdi-76a41b295/" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
+        <a href="#" class="social-btn">Instagram</a>
+        <a href="#" class="social-btn">Facebook</a>
+      </div>
+    </div>
+
+    <div class="conn-photo-col">
+      <img class="conn-photo" src="images/Me.jpg" alt="Ayub Mahdi">
+      <img class="cur-deco" src="images/Cursor1.png" alt="">
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>© 2026 Ayub Mahdi</span>
+    <span>Toronto, ON</span>
+    <span>Design Intentionally, Create Ambitiously</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════ -->
+<script>
+/* custom cursor */
+const cur = document.getElementById('cur');
+document.addEventListener('mousemove', e => {
+  cur.style.left = e.clientX + 'px';
+  cur.style.top  = e.clientY + 'px';
+});
+
+/* scroll reveal */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+/* modals */
+function openModal(id) {
+  document.getElementById('modal-' + id).classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal(id) {
+  document.getElementById('modal-' + id).classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* lightbox with left/right navigation */
+let lbImages = [];
+let lbIndex = 0;
+
+function initGallery(galleryId) {
+  const imgs = document.querySelectorAll('#' + galleryId + ' img');
+  const srcs = Array.from(imgs).map(i => i.src);
+  imgs.forEach((img, idx) => {
+    img.addEventListener('click', e => {
+      e.stopPropagation();
+      lbImages = srcs;
+      lbIndex  = idx;
+      showLb();
+    });
+  });
+}
+['gallery-stepout', 'gallery-concept', 'gallery-3d'].forEach(initGallery);
+
+function showLb() {
+  document.getElementById('lb-img').src = lbImages[lbIndex];
+  document.getElementById('lb-counter').textContent =
+    (lbIndex + 1) + ' / ' + lbImages.length;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLb() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('lb-close').addEventListener('click', closeLb);
+document.getElementById('lb-prev').addEventListener('click', () => {
+  lbIndex = (lbIndex - 1 + lbImages.length) % lbImages.length; showLb();
+});
+document.getElementById('lb-next').addEventListener('click', () => {
+  lbIndex = (lbIndex + 1) % lbImages.length; showLb();
+});
+document.getElementById('lightbox').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeLb();
+});
+
+/* keyboard navigation */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeLb();
+    document.querySelectorAll('.modal-overlay.open')
+      .forEach(m => m.classList.remove('open'));
+    document.body.style.overflow = '';
+  }
+  if (document.getElementById('lightbox').classList.contains('open')) {
+    if (e.key === 'ArrowLeft')  { lbIndex = (lbIndex - 1 + lbImages.length) % lbImages.length; showLb(); }
+    if (e.key === 'ArrowRight') { lbIndex = (lbIndex + 1) % lbImages.length; showLb(); }
+  }
+});
+</script>
+
+</body>
+</html>
